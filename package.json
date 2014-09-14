@@ -1,0 +1,17 @@
+{
+  "name": "finance-stream",
+  "version": "0.0.1",
+  "description": "realtime stock and exchange stream",
+  "main": "finance-stream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Kusterer",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^1.2.0",
+    "highland": "^1.28.0",
+    "object-path": "^0.6.0",
+    "query-extend": "^0.1.2"
+  }
+}
