@@ -75,7 +75,7 @@ var discardUnchanged = function(key) {
 
 // extract values from a json-path
 // and pass them into the downstream
-fromPath = function(path) {
+var fromPath = function(path) {
   return function(s) {
     return s.map(function(data) {
       return objectPath.get(data, path);
