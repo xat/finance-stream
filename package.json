@@ -1,6 +1,6 @@
 {
   "name": "finance-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "realtime stock and exchange stream",
   "main": "finance-stream.js",
   "scripts": {
@@ -13,5 +13,20 @@
     "highland": "^1.28.0",
     "object-path": "^0.6.0",
     "query-extend": "^0.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xat/finance-stream.git"
+  },
+  "keywords": [
+    "yahoo finance",
+    "finance",
+    "stocks",
+    "currency",
+    "exchange"
+  ],
+  "bugs": {
+    "url": "https://github.com/xat/finance-stream/issues"
+  },
+  "homepage": "https://github.com/xat/finance-stream"
 }
