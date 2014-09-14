@@ -1,5 +1,7 @@
 # finance-stream
 
+realtime stock and exchange stream.
+
 ## Usage
 
 ```javascript
@@ -23,6 +25,10 @@ fstream
   .pipe(process.stdout);
 
 ```
+
+### Installation
+
+`npm install finance-stream`
 
 ## License
 Copyright (c) 2014 Simon Kusterer
