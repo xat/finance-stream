@@ -45,9 +45,10 @@ var toFloat = function() {
   var args = slice.call(arguments);
   return function(s) {
     return s.map(function(data) {
-      args.forEach(function(k) {
-        data[k] = parseFloat(data[k]);
-      });
+      if (data)
+        args.forEach(function(k) {
+          data[k] = parseFloat(data[k]);
+        });
       return data;
     });
   };
